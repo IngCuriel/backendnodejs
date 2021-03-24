@@ -32,16 +32,15 @@ Un una capa por encima del sistema operativo que no permite ejecutar pedasos de 
 - **Consola ** muy similar en ambos lados
 
 ## Arquitectura Orientada a objetos
-
+  Ejemplos en la carpeta arquitectura-node
 ###### CALLBACK
-
+- 
 ###### PROMISE
 
 ###### ASYNC AWAIT
 
 ###### EVENT EMMITER
 
-  El callback en un parametro que se va ejecutar como una función mas adenlante.
   
 
 
