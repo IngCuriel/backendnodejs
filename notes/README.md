@@ -21,29 +21,32 @@ Un una capa por encima del sistema operativo que no permite ejecutar pedasos de 
 
 ###### En Node.js
 - Tenemos una serie de modulos como es el **modulo http** que lo que nos permite es crear servidores.
-- Tenemos el **OS module** que noas ayuda a obtener información del sistema operativo.
-- **UTILS Module Aquí estan las utilidades generades del Node.js**.
+- Tenemos el **OS module** que nos ayuda a obtener información del sistema operativo.
+- **UTILS Module** Aquí estan las utilidades generades del Node.js.
 - Module **Debugger** (del lado del cliente lo maneja el navegador);
 
 ###### En Común.
 
 - Librerias comunes **Streams**
 - **EcmaScript** modules
-- **Consola ** muy similar en ambos lados
+- **Consola** muy similar en ambos lados
 
 ## Arquitectura Orientada a objetos
   Ejemplos en la carpeta arquitectura-node
 ###### CALLBACK
-- 
 ###### PROMISE
-
 ###### ASYNC AWAIT
-
 ###### EVENT EMMITER
 
-  
+## Crear servidor http 
+
+Ejemplo carpeta node-server-web
+
 
 
 Eleazar Curiel Monjaraz [Ing Curiel](https://ingcuriel.com/)
 
 [GitHub Docs](https://docs.github.com/en/github/writing-on-github/)
+
+
+[Pagína para crear imagenes de tu codigo elegantes](https://carbon.now.sh/)
