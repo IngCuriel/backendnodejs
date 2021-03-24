@@ -31,7 +31,10 @@ Un una capa por encima del sistema operativo que no permite ejecutar pedasos de 
 - **EcmaScript** modules
 - **Consola ** muy similar en ambos lados
 
+## Arquitectura Orientada a objetos
 
+  El callback en un parametro que se va ejecutar como una función mas adenlante.
+  
 
 
 Eleazar Curiel Monjaraz [Ing Curiel](https://ingcuriel.com/)
