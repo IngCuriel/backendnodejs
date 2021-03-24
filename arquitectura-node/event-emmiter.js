@@ -1,4 +1,4 @@
-//EventEmmiter para hacer mejor codigo asyncrono a diferencia de usar callback o promise
+//**EventEmmiter** para hacer mejor codigo **asyncrono** a diferencia de usar **Callback** ó **Promise*
 const EventEmmiter = require('events');
 
 class Logger extends EventEmmiter {
@@ -10,8 +10,7 @@ class Logger extends EventEmmiter {
         console.log('After')
     }
 }
-
-//Instanciomos 
+ 
 const logger = new Logger();
 logger.on("iniciar",()=>console.log("Starting"));
 logger.on("final",()=>console.log("Finishing"));

@@ -1,6 +1,6 @@
 // Las promesass reciben dos parametro en la funcion (resolver y reject)
    // - **resolver** que se encarga de resolver la promesa
-   // - ** reject que se encargar de enviar un error en caso de que algo suceda. 
+   // - ** reject**  que se encargar de enviar un error en caso de que algo suceda. 
 const promise = new Promise((resolver,reject)=>{
     setTimeout(()=>{
         if(Math.random()<0.5) {
@@ -11,9 +11,9 @@ const promise = new Promise((resolver,reject)=>{
      }, 2000)
 })
 
-// lo interesante de las promesas es que se pueden emcadenar 
+//Lo interesante de las promesas es que se pueden encadenar 
 promise.then(msg=> msg.toUpperCase())
         .then(msg => console.log("mensaje",msg))
         .catch(error => console.log("error", error))
 
-// El problema de los callback y las promesas esque se generan un codigo en cascada que es dificil de leer con el tiempo
+// El problema de los callback y las promesas es que se genera un codigo en cascada que es dificil de leer con el tiempo

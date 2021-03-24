@@ -1,5 +1,5 @@
 
-//callback
+// El **Callback** en un parametro que se va ejecutar como una función mas adenlante.
 const asynCallback = function(cb) {
     // el setTimeout recibe como primer parametro la funcion a ejecutar y como segundo el tiempo de ejecución
     setTimeout(()=>{
