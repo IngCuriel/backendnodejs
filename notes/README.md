@@ -31,7 +31,17 @@ Un una capa por encima del sistema operativo que no permite ejecutar pedasos de 
 - **EcmaScript** modules
 - **Consola ** muy similar en ambos lados
 
+## Arquitectura Orientada a objetos
+  Ejemplos en la carpeta arquitectura-node
+###### CALLBACK
+- 
+###### PROMISE
 
+###### ASYNC AWAIT
+
+###### EVENT EMMITER
+
+  
 
 
 Eleazar Curiel Monjaraz [Ing Curiel](https://ingcuriel.com/)
