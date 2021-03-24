@@ -1,5 +1,5 @@
-//Ejemplo se crea server para que recibe un metodo post rebice la fecha de tu cumpleaños
-// con el formato 1993/05/08 y regresa la el dia de tu cumpleaños
+//Ejemplo se crea server para que recibe un metodo post obtener en texto plano la fecha de tu cumpleaños
+// con el formato 1993/05/08 y regresa el dia de la semaña
 
 //Para crear un servidor se requiere el modulo http que es un modulo nativo de nodejs
 // este modulo nos permite crear un servidor mediante el método createServer
@@ -9,7 +9,7 @@ const server = http.createServer();
 // - req: lo que llega al server
 // - res:lo que response el serve
 server.on('request', (req, res)=>{
-    //exigimos que el request method sea de tipo POST y el url se /echo
+    //exigimos que el request method sea de tipo POST y el url se /diacumpleanos
     // de lo contrario respodemos un 404
     if( req.method === "POST" && req.url==="/diacumpleanos") {
 
@@ -21,13 +21,12 @@ server.on('request', (req, res)=>{
         })
         .on('end', () => {
             //cuando se termine de ejecutar nuestro evento data ejecutamos end
-            //ejecutar res  end para responder al cliente
            res.writeHead(200, {'Content-Type':'text/plain'});
            //formato que recibe 1993/05/04
            body = Buffer.concat(body).toString();
            const date = new Date(body);
            // se obtener el dia de la semana con getDay
-            
+           //ejecutar res  end para responder al cliente            
            res.end(getDiaSemana(date.getDay()));
         })
     } else  {
